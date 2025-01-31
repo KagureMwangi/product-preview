@@ -4,21 +4,30 @@ body {
   justify-content: center; /* Aligns items horizontally */
   align-items: center; /* Aligns items vertically */
 }
+
+h3{
+  color: hsl(228, 12%, 48%);
+  margin-top: 5px;
+}
+
+.Gabrielle{
+  margin-top: 5px;
+}
 .container {
   background-color: white;
   display: flex; /* Enables flexbox layout */
   justify-content: center; /* Aligns items horizontally */
-  align-items: center; /* Aligns items vertically */
+  align-content: center; /* Aligns items vertically */
    padding: 0px;/* Adds space inside the flexbox */
-  width: 38%;
+  width: 40%;
   border-radius: 15px; /* Rounds the corners */
   gap: 10px;
-  margin-top: 0%;
+  margin-top: 70px;
 }
 
 .image-container {
-  width: 1000px; /* Set container width */
-  height: 412px; /* Set container height */
+  width: 500px; /* Set container width */
+  height: 400px; /* Set container height */
   overflow: hidden; /* Prevent overflow of image */
   border-radius: 12px;
   padding: 0px;
@@ -37,7 +46,7 @@ img {
   align-items: baseline;
 }
 .now {
-  margin-top: 0%;
+  margin-top: 5px;
   font-weight: bolder;
   font-size: xx-large;
   color: hsl(158, 36%, 37%);
@@ -49,10 +58,11 @@ img {
 
 .description {
   color: hsl(228, 12%, 48%);
+  margin-top: 5px;
 }
 
 .cart {
-  margin-top: 0px;
+  margin-top: 0%;
   background-color: hsl(158, 36%, 37%);
   border-radius: 12px;
   text-align: center;
@@ -68,4 +78,5 @@ img {
 
 .info{
   padding: 10px;
+  width: 100%;
 }
